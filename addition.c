@@ -12,7 +12,7 @@ int main(){
         for(j=0;j<col;j++){
             scanf("%d",&a[i][j]);
         }
-    }
+    }2
     // for printing of  1st matrix
     /* printf("First Matrix: \n");
     for(i=0;i<row;i++){
