@@ -1,8 +1,6 @@
 #include<stdio.h>
 int main(){
     int i,j,row,col;
-   
-
     printf("enter row and column :-");
     scanf("%d%d",&row,&col);
     int a[row][col], b[row][col],c[row][col];

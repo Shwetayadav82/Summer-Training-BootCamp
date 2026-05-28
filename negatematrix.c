@@ -10,7 +10,6 @@ int main(){
             scanf("%d",&a[i][j]);
         }
     }
-    printf("transpose matrix :");
     for(i=0;i<row;i++){
         for(j=0;j<col;j++){
             trans[j][i] = -a[i][j];
@@ -21,7 +20,7 @@ int main(){
         for(j=0;j<row;j++){
             printf(" %d ",trans[i][j]);
         }
-        printf(" \n");
+        printf(" \n ");
     }
 
     return 0;
