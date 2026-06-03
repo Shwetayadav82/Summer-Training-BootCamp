@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/91878/OneDrive/Desktop/Summer BootCamp",
-      "program": "c:/Users/91878/OneDrive/Desktop/Summer BootCamp/build/Debug/outDebug",
+      "cwd": "c:/Users/91878/OneDrive/Desktop/SummerBootCamp/day 4",
+      "program": "c:/Users/91878/OneDrive/Desktop/SummerBootCamp/day 4/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
