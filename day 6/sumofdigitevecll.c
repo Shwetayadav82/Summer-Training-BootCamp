@@ -6,7 +6,7 @@ struct node{
 };
 struct node* tail;
 struct node* head=NULL;
-void createll(){
+        void createll(){
   struct node* newnode;
 
   newnode=(struct node*)malloc(sizeof(struct node));
