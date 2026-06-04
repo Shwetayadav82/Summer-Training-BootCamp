@@ -72,7 +72,7 @@ int main(){
             case 4:display();
             break;
             case 5:
-            printf("Exiting ptogram");
+            printf("Exiting this code");
             exit(0);
             break;
             default:
