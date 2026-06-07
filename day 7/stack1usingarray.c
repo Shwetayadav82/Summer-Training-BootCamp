@@ -3,13 +3,10 @@
 int stack[max];
 int top=-1;
 
-//funtion 
 // push()
-// pop()
-// top()
-// display()
 
-void push(){
+void push()
+{
     int x;
     printf("enter the element");
     scanf("%d",&x);
@@ -23,18 +20,24 @@ void push(){
         stack[top]=x;
     }
 }
-void pop(){
+//pop
+
+void pop()
+{
 if(top==-1){
     printf("Stack is underflow.");
 }
-else{
+else
+{
 printf("%d",stack[top]);
 top--;
 }
 }
+
 //peek()or top()
 
-void peek(){
+void peek()
+{
     if(top==-1){
         printf("stack is empty.");
     }
@@ -43,12 +46,15 @@ void peek(){
 printf("%d",stack[top]);
     }
 }
+// display
+
 void display(){
     int i;
     for(i=top;i>=0;i--){
 printf("%d",stack[i]);
     }
 }
+
 int main(){
     while(1){
         printf("\n0.Exit\n1.Push the element\n2.Pop the element\n3.peek the element\n4.Display the element\n");
